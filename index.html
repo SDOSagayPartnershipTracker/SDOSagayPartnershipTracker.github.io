@@ -10,7 +10,7 @@
 *{box-sizing:border-box}body{margin:0;background:linear-gradient(rgba(242,246,252,.84),rgba(242,246,252,.9)),url('29f23618-530d-42a3-9492-c8df11cb53f5.jpg') center/cover fixed no-repeat;color:var(--navy);font:14px/1.45 Inter,Arial,sans-serif;border-top:8px solid #0c3476}button,input{font:inherit}.wrap{width:min(1180px,calc(100% - 36px));margin:auto}
 header{padding:34px 0 20px;display:flex;align-items:center;justify-content:space-between}.kicker{font:700 11px/1 Inter;letter-spacing:.18em;color:#3e6872;text-transform:uppercase}.mabuhay{margin:10px 0 13px;padding-left:12px;border-left:3px solid var(--yellow);color:#08459f;font-size:23px;font-weight:800;letter-spacing:.02em}h1{margin:0;font:700 38px/1.1 "Barlow Condensed",sans-serif;letter-spacing:.01em}.subtitle{margin:8px 0 0;color:var(--muted)}.quarter{background:var(--yellow);padding:11px 16px;border-radius:7px;font-weight:800}
 .statusbar{display:flex;justify-content:space-between;align-items:center;padding:12px 14px;border:1px solid var(--line);border-radius:8px;background:#e9f0f4;color:#476075}.refresh{padding:7px 12px;border:1px solid #cbd7e3;border-radius:6px;background:#fff;color:#355369;cursor:pointer}.refresh:hover{border-color:var(--blue)}
-.tabs{display:flex;gap:8px;margin-top:20px;border-bottom:1px solid #c8d4e2}.tab{padding:15px 17px 13px;border:0;border-bottom:3px solid transparent;background:transparent;color:#5d7188;cursor:pointer}.tab.active{border-bottom-color:var(--yellow);color:var(--royal);font-weight:700}.tab:hover{color:var(--royal)}
+.tabs{display:flex;gap:8px;margin-top:20px;border-bottom:1px solid #c8d4e2}.tab{display:inline-block;padding:15px 17px 13px;border:0;border-bottom:3px solid transparent;background:transparent;color:#5d7188;cursor:pointer;text-decoration:none}.tab.active{border-bottom-color:var(--yellow);color:var(--royal);font-weight:700}.tab:hover{color:var(--royal)}
 .view{display:none;padding-top:26px}.view.active{display:block}.sectiontitle{display:flex;justify-content:space-between;align-items:center;margin:0 0 16px}.sectiontitle h2{font-size:15px;margin:0}.sectiontitle span{font-size:11px;color:var(--muted)}
 .metrics{display:grid;grid-template-columns:1.35fr repeat(3,1fr);gap:14px}.card{border:1px solid var(--line);border-radius:10px;background:var(--card);padding:22px;box-shadow:0 2px 8px #163b6406}.metric{min-height:188px;display:flex;flex-direction:column}.metric .icon{width:36px;height:36px;display:grid;place-items:center;border-radius:7px;background:#fff1bc;color:#936900;font-size:18px}.metric:nth-child(3) .icon{background:#e8edff;color:#4c62c3}.metric:nth-child(4) .icon{background:#fff2cc}.label{margin-top:19px;color:#53647a}.amount{margin:8px 0 0;font:700 29px/1.1 "Barlow Condensed",sans-serif;letter-spacing:.02em}.metric small{margin-top:auto;color:#6d7b8e;font-size:11px}.metric.main{background:linear-gradient(145deg,#2258bd,#1648a5);color:#fff;border:0}.metric.main .label{margin-top:0;color:#fff}.metric.main .amount{font-size:36px}.metric.main small{color:#fff}.tagline{margin-top:20px;padding-top:15px;border-top:1px solid #ffffff66;color:var(--yellow);font-weight:700;font-size:11px}
 .notice{margin:15px 0;padding:12px 14px;background:#fffbec;border:1px solid #e7d18b;border-radius:7px;color:#7b6529}
@@ -26,7 +26,7 @@ footer{display:flex;justify-content:space-between;padding:28px 0 34px;color:#758
 <body><div class="wrap">
 <header><div><div class="kicker">Social Mobilization & Networking</div><div class="mabuhay">MABUHAY SDO SAGAY CITY</div><h1>Partnership & Donation Tracker</h1><p class="subtitle">Our partners’ contributions to schools and learners.</p></div><div class="quarter">CY 2026</div></header>
 <div class="statusbar"><span>ⓘ &nbsp; Uploaded workbook · 14 September 2026 · Live Excel connection pending</span><button class="refresh" onclick="location.reload()">⟳ &nbsp;Refresh</button></div>
-<nav class="tabs"><button class="tab active" data-view="dashboard">▥ &nbsp; Dashboard</button><button class="tab" data-view="donations">▦ &nbsp; Donations</button><button class="tab" data-view="stakeholders">♧ &nbsp; Stakeholders</button><button class="tab" data-view="projects">▱ &nbsp; Projects</button></nav>
+<nav class="tabs" aria-label="Tracker sections"><a class="tab active" href="#dashboard" data-view="dashboard">▥ &nbsp; Dashboard</a><a class="tab" href="#donations" data-view="donations">▦ &nbsp; Donations</a><a class="tab" href="#stakeholders" data-view="stakeholders">♧ &nbsp; Stakeholders</a><a class="tab" href="#projects" data-view="projects">▱ &nbsp; Projects</a></nav>
 <main>
 <section class="view active" id="dashboard">
 <div class="sectiontitle"><h2>Partnership overview</h2><span>Confirmed donations only</span></div>
@@ -52,7 +52,19 @@ footer{display:flex;justify-content:space-between;padding:28px 0 34px;color:#758
 <script>
 const records=[{partner:"DICT Negros Island Region",program:"Bayanihan SIM Card Program",coverage:"SDO Sagay City",type:"In-kind",amount:6913860,status:"Confirmed"}],peso=new Intl.NumberFormat("en-PH",{style:"currency",currency:"PHP",minimumFractionDigits:2}),rows=document.getElementById("rows"),search=document.getElementById("search");
 document.getElementById("today").textContent=new Intl.DateTimeFormat("en-PH",{day:"numeric",month:"long",year:"numeric"}).format(new Date());
-document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{document.querySelectorAll(".tab,.view").forEach(x=>x.classList.remove("active"));t.classList.add("active");document.getElementById(t.dataset.view).classList.add("active")});
+function openView(viewId){
+  const target=document.getElementById(viewId)||document.getElementById("dashboard");
+  document.querySelectorAll(".tab").forEach(tab=>tab.classList.toggle("active",tab.dataset.view===target.id));
+  document.querySelectorAll(".view").forEach(view=>view.classList.toggle("active",view===target));
+}
+document.querySelectorAll(".tab").forEach(tab=>tab.addEventListener("click",event=>{
+  event.preventDefault();
+  const viewId=tab.dataset.view;
+  history.replaceState(null,"","#"+viewId);
+  openView(viewId);
+}));
+window.addEventListener("hashchange",()=>openView(location.hash.slice(1)));
+openView(location.hash.slice(1)||"dashboard");
 function render(){const q=search.value.toLowerCase(),f=records.filter(r=>(r.partner+" "+r.program).toLowerCase().includes(q));rows.innerHTML=f.map(r=>'<tr><td><b>'+r.partner+'</b></td><td>'+r.program+'</td><td>'+r.coverage+'</td><td>'+r.type+'</td><td><b>'+peso.format(r.amount)+'</b></td><td><span class="confirmed">'+r.status+'</span></td></tr>').join("")}search.oninput=render;render();
 document.getElementById("exportBtn").onclick=()=>{const csv=[["Partner","Program/Project","Coverage","Type","Amount","Status"],...records.map(r=>[r.partner,r.program,r.coverage,r.type,r.amount,r.status])].map(a=>a.map(v=>'"'+String(v).replaceAll('"','""')+'"').join(",")).join("\n"),a=document.createElement("a");a.href=URL.createObjectURL(new Blob([csv],{type:"text/csv"}));a.download="SDO-Sagay-Partnership-Tracker.csv";a.click();URL.revokeObjectURL(a.href)};
 </script>
