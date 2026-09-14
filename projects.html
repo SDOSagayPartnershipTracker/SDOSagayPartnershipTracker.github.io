@@ -26,9 +26,9 @@ footer{display:flex;justify-content:space-between;padding:28px 0 34px;color:#758
 <body data-default-view="projects"><div class="wrap">
 <header><div><div class="kicker">Social Mobilization & Networking</div><div class="mabuhay">MABUHAY SDO SAGAY CITY</div><h1>Partnership & Donation Tracker</h1><p class="subtitle">Our partners’ contributions to schools and learners.</p></div><div class="quarter">CY 2026</div></header>
 <div class="statusbar"><span>ⓘ &nbsp; Uploaded workbook · 14 September 2026 · Live Excel connection pending</span><button class="refresh" onclick="location.reload()">⟳ &nbsp;Refresh</button></div>
-<nav class="tabs" aria-label="Tracker sections"><a class="tab" href="index.html" data-view="dashboard">▥ &nbsp; Dashboard</a><a class="tab" href="donations.html" data-view="donations">▦ &nbsp; Donations</a><a class="tab" href="stakeholders.html" data-view="stakeholders">♧ &nbsp; Stakeholders</a><a class="tab" href="projects.html" data-view="projects">▱ &nbsp; Projects</a></nav>
+<nav class="tabs" aria-label="Tracker sections"><a class="tab" href="index.html" data-view="dashboard">▥ &nbsp; Dashboard</a><a class="tab" href="donations.html" data-view="donations">▦ &nbsp; Donations</a><a class="tab" href="stakeholders.html" data-view="stakeholders">♧ &nbsp; Stakeholders</a><a class="tab active" href="projects.html" data-view="projects">▱ &nbsp; Projects</a></nav>
 <main>
-<section class="view active" id="dashboard">
+<section class="view" id="dashboard">
 <div class="sectiontitle"><h2>Partnership overview</h2><span>Confirmed donations only</span></div>
 <div class="metrics">
 <article class="card metric main"><span class="label">Total partnership value</span><strong class="amount">₱66,014,548.17</strong><small>89 confirmed donation records</small><div class="tagline">Supporting Education. Together.</div></article>
@@ -45,7 +45,7 @@ footer{display:flex;justify-content:space-between;padding:28px 0 34px;color:#758
 </section>
 <section class="view" id="donations"><div class="sectiontitle"><h2>Donation records</h2><span>Confirmed donations only</span></div><div class="tabletools"><input class="search" id="search" placeholder="Search partner or program"><button class="export" id="exportBtn">Export CSV</button></div><div class="tablewrap"><table class="datatable"><thead><tr><th>Partner</th><th>Program / Project</th><th>Coverage</th><th>Type</th><th>Amount</th><th>Status</th></tr></thead><tbody id="rows"></tbody></table></div></section>
 <section class="view" id="stakeholders"><div class="sectiontitle"><h2>Stakeholders</h2><span>Partner directory</span></div><div class="empty"><b>84 registered partners</b><span>Complete partner directory will appear after the live Excel connection is enabled.</span></div></section>
-<section class="view" id="projects"><div class="sectiontitle"><h2>Programs and projects</h2><span>Supported initiatives</span></div><div class="empty"><b>Programs and projects</b><span>Program-level records will appear after the live Excel connection is enabled.</span></div></section>
+<section class="view active" id="projects"><div class="sectiontitle"><h2>Programs and projects</h2><span>Supported initiatives</span></div><div class="empty"><b>Programs and projects</b><span>Program-level records will appear after the live Excel connection is enabled.</span></div></section>
 </main>
 <footer><span>Schools Division of Sagay City</span><span>SGOD · Social Mobilization & Networking</span><span>♙ &nbsp;View only</span></footer>
 </div>
