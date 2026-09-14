@@ -57,11 +57,8 @@ function openView(viewId){
   document.querySelectorAll(".tab").forEach(tab=>tab.classList.toggle("active",tab.dataset.view===target.id));
   document.querySelectorAll(".view").forEach(view=>view.classList.toggle("active",view===target));
 }
-document.querySelectorAll(".tab").forEach(tab=>tab.addEventListener("click",event=>{
-  event.preventDefault();
-  const viewId=tab.dataset.view;
-  history.replaceState(null,"","#"+viewId);
-  openView(viewId);
+document.querySelectorAll(".tab").forEach(tab=>tab.addEventListener("click",()=>{
+  openView(tab.dataset.view);
 }));
 window.addEventListener("hashchange",()=>openView(location.hash.slice(1)));
 openView(location.hash.slice(1)||"dashboard");
