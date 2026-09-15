@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T22:30:03.0327007Z",
+  "updatedAt": "2026-09-15T22:35:01.0051170Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1169,6 +1169,19 @@
       "programProject": "BRIGADA ESKWELA",
       "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "359",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46213",
+      "stakeholderName": "BFP SAGAY CITY",
+      "donationType": "Food",
+      "description": "CHEESE CAKE AND MINUTE MAID ORANGE JUICE",
+      "cashAmount": "0",
+      "inKindValue": "2, 000.00",
+      "totalValue": "#VALUE!",
+      "programProject": "Orientation Session for Grade 2 Learners",
+      "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "25",
       "status": "Confirmed"
     }
   ],
