@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T22:20:01.6331524Z",
+  "updatedAt": "2026-09-15T22:25:01.5459510Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1156,6 +1156,19 @@
       "programProject": "N/A",
       "beneficiarySchools": "Old Sagay Elem. School",
       "numberOfBeneficiaries": "N/A",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46176",
+      "stakeholderName": "MARAYO BANK INC.,",
+      "donationType": "Other",
+      "description": "SOLO LATEX PAINT",
+      "cashAmount": "0",
+      "inKindValue": "3000",
+      "totalValue": "3000",
+      "programProject": "BRIGADA ESKWELA",
+      "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "359",
       "status": "Confirmed"
     }
   ],
