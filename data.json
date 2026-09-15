@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T23:05:01.8516198Z",
+  "updatedAt": "2026-09-15T23:10:02.1217084Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1208,6 +1208,19 @@
       "programProject": "SCHOOL IMPROVEMENT",
       "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "359",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46244",
+      "stakeholderName": "FRIENDS OF BING BACK TO SCHOOL DRIVE 2026 IN PARTNERSHIP WITH TOSCOP AND  DEPED SAGAY",
+      "donationType": "School Supplies",
+      "description": "BOOKS, PAD PAPER (GRADE 4), PENCIL, NOTEBOOK",
+      "cashAmount": "0",
+      "inKindValue": "2, 556.00",
+      "totalValue": "#VALUE!",
+      "programProject": "BACK TO SCHOOL",
+      "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "28",
       "status": "Confirmed"
     }
   ],
