@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T22:50:01.5955393Z",
+  "updatedAt": "2026-09-15T22:55:01.3986126Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1195,6 +1195,19 @@
       "programProject": "BRIGADA ESKWELA",
       "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "50",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46052",
+      "stakeholderName": "AILA MARIE M. BACALSO",
+      "donationType": "Infrastructure Materials",
+      "description": "CONSTRUCTION OF CONCRETE PATHWAY TO MULTI-PURPOSE HALL",
+      "cashAmount": "21, 190.00",
+      "inKindValue": "0",
+      "totalValue": "#VALUE!",
+      "programProject": "SCHOOL IMPROVEMENT",
+      "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "359",
       "status": "Confirmed"
     }
   ],
