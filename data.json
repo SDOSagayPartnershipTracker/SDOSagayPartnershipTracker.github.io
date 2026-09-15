@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T22:35:01.0051170Z",
+  "updatedAt": "2026-09-15T22:40:00.9438311Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1182,6 +1182,19 @@
       "programProject": "Orientation Session for Grade 2 Learners",
       "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "25",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46177",
+      "stakeholderName": "THOR SUMBI",
+      "donationType": "Food",
+      "description": "ORANGE JUICE",
+      "cashAmount": "0",
+      "inKindValue": "650",
+      "totalValue": "650",
+      "programProject": "BRIGADA ESKWELA",
+      "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "50",
       "status": "Confirmed"
     }
   ],
