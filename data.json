@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T23:10:02.1217084Z",
+  "updatedAt": "2026-09-15T23:15:00.9477833Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1221,6 +1221,19 @@
       "programProject": "BACK TO SCHOOL",
       "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "28",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46213",
+      "stakeholderName": "DEPARTMENT OF AGRICULTURE (DA)-SAGAY CITY",
+      "donationType": "Other",
+      "description": "ASSORTED VEGETABLE SEEDS",
+      "cashAmount": "0",
+      "inKindValue": "1000",
+      "totalValue": "1000",
+      "programProject": "GULAYAN SA PAARALAN",
+      "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "359",
       "status": "Confirmed"
     }
   ],
