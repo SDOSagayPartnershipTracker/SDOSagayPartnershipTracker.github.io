@@ -52,6 +52,7 @@ jobs:
           public_data = {
               "updatedAt": source.get("updatedAt"),
               "donations": donations,
+              "stakeholderCount": source.get("stakeholderCount"),
               "stakeholders": stakeholders,
               "projects": []
           }
