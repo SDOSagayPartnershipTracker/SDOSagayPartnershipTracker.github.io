@@ -8,7 +8,7 @@ const excelDate=v=>{
 };
 const dateText=v=>{const d=excelDate(v);return d?new Intl.DateTimeFormat("en-PH",{year:"numeric",month:"short",day:"numeric"}).format(d):String(v??"")};
 const esc=v=>String(v??"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
-const canonicalPartnerName=v=>{const name=String(v||"Unspecified").trim().replace(/\s+/g," ");const key=name.toLocaleLowerCase();return key==="lgu sagay"?"LOCAL GOVERNMENT UNIT":name;};
+const canonicalPartnerName=v=>{const name=String(v||"Unspecified").trim().replace(/\s+/g," ");const key=name.toLocaleLowerCase();const cityLguAliases=new Set(["local government unit","local government unit city","local government unit sagay","local government unit sagay city","lgu city","lgu sagay","lgu sagay city","lgu-sagay city"]);return cityLguAliases.has(key)?"LOCAL GOVERNMENT UNIT":name;};
 
 function openView(viewId){
   const target=document.getElementById(viewId)||document.getElementById("dashboard");
@@ -70,7 +70,8 @@ function updateDashboard(){
   const donationPartners=aggregates("stakeholderName",records),rankedPartners=aggregates("stakeholderName"),projects=aggregates("programProject");
   const partners=registeredStakeholders.length?registeredStakeholders:donationPartners;
   const rawPartnerNames=new Set(records.map(r=>String(r.stakeholderName||"").trim().replace(/\s+/g," ").toLocaleLowerCase()));
-  const mergedLguDuplicate=rawPartnerNames.has("local government unit")&&rawPartnerNames.has("lgu sagay")?1:0;
+  const cityLguNames=[...rawPartnerNames].filter(name=>canonicalPartnerName(name)==="LOCAL GOVERNMENT UNIT");
+  const mergedLguDuplicate=Math.max(0,cityLguNames.length-1);
   const partnerCount=(registeredStakeholderCount||partners.length)-mergedLguDuplicate;
   const metrics=document.querySelectorAll("#dashboard .metric");
   if(metrics.length>=4){
