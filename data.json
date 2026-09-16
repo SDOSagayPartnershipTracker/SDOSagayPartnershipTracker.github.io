@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T07:25:02.6655546Z",
+  "updatedAt": "2026-09-16T07:30:01.9379819Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1248,9 +1248,22 @@
       "beneficiarySchools": "HAUTEA INTEGRATED SCHOOL",
       "numberOfBeneficiaries": "35",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46146",
+      "stakeholderName": "SPTA OFFICERS",
+      "donationType": "Infrastructure Materials",
+      "description": "Expansion and Improvement of the MINI Gymnasium",
+      "cashAmount": "12968",
+      "inKindValue": "0",
+      "totalValue": "12968",
+      "programProject": "MINI Gymnasium Expansion Projec",
+      "beneficiarySchools": "TALUSAN ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "802",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 91,
+  "stakeholderCount": 92,
   "stakeholders": [],
   "projects": []
 }
