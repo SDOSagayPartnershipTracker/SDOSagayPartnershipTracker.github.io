@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T07:00:02.7970441Z",
+  "updatedAt": "2026-09-16T07:05:02.5456511Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1235,9 +1235,22 @@
       "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "359",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46255",
+      "stakeholderName": "TADLONG BARANGAY COUNCIL",
+      "donationType": "Other",
+      "description": "LYRE, TRIPLE DRUM, TRIO, BEATER, SNARE DRUM, DRUM STCIK, SNARE LAZER STAND",
+      "cashAmount": "0",
+      "inKindValue": "26358",
+      "totalValue": "26358",
+      "programProject": "HIS DRUM AND LYRE CORPSE",
+      "beneficiarySchools": "HAUTEA INTEGRATED SCHOOL",
+      "numberOfBeneficiaries": "35",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 90,
+  "stakeholderCount": 91,
   "stakeholders": [],
   "projects": []
 }
