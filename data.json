@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T07:50:02.6017907Z",
+  "updatedAt": "2026-09-16T07:55:02.6339751Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1286,6 +1286,19 @@
       "programProject": "Batang Sagaynon Kampeon Program",
       "beneficiarySchools": "TALUSAN ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "805",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46190",
+      "stakeholderName": "LGU SAGAY CITY",
+      "donationType": "School Supplies",
+      "description": "BAGS, PAPERS, PENCILS, NOTEBOOKS, CRAYON, RAINCOAT",
+      "cashAmount": "0",
+      "inKindValue": "114, 373.00",
+      "totalValue": "#VALUE!",
+      "programProject": "Batang Sagaynon Kampeon Program",
+      "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "359",
       "status": "Confirmed"
     }
   ],
