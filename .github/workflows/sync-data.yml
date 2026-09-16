@@ -34,10 +34,25 @@ jobs:
               for row in source.get("donations", [])
               if isinstance(row, dict)
           ]
+          raw_stakeholders = source.get("stakeholders", [])
+          stakeholder_keys = [
+              "stakeholderName", "Stakeholder Name", "Name of Stakeholder",
+              "Partner Name", "Name of Partner", "Stakeholder/Partner Name"
+          ]
+          seen = set()
+          stakeholders = []
+          for row in raw_stakeholders:
+              if not isinstance(row, dict):
+                  continue
+              name = next((str(row.get(key, "")).strip() for key in stakeholder_keys if str(row.get(key, "")).strip()), "")
+              normalized = " ".join(name.lower().split())
+              if name and normalized not in seen:
+                  seen.add(normalized)
+                  stakeholders.append({"stakeholderName": name})
           public_data = {
               "updatedAt": source.get("updatedAt"),
               "donations": donations,
-              "stakeholders": [],
+              "stakeholders": stakeholders,
               "projects": []
           }
           with open("data.json", "w", encoding="utf-8") as file:
