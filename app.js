@@ -8,6 +8,7 @@ const excelDate=v=>{
 };
 const dateText=v=>{const d=excelDate(v);return d?new Intl.DateTimeFormat("en-PH",{year:"numeric",month:"short",day:"numeric"}).format(d):String(v??"")};
 const esc=v=>String(v??"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+const canonicalPartnerName=v=>{const name=String(v||"Unspecified").trim().replace(/\s+/g," ");const key=name.toLocaleLowerCase();return key==="lgu sagay"?"LOCAL GOVERNMENT UNIT":name;};
 
 function openView(viewId){
   const target=document.getElementById(viewId)||document.getElementById("dashboard");
@@ -40,7 +41,8 @@ function renderDonations(){
 function aggregates(key,source=confirmedRows()){
   const map=new Map();
   source.forEach(r=>{
-    const name=String(r[key]||"Unspecified").trim().replace(/\s+/g," ");
+    const rawName=String(r[key]||"Unspecified").trim().replace(/\s+/g," ");
+    const name=key==="stakeholderName"?canonicalPartnerName(rawName):rawName;
     const normalized=name.toLocaleLowerCase();
     const item=map.get(normalized)||{name,records:0,cash:0,inkind:0,total:0};
     item.records++;item.cash+=number(r.cashAmount);item.inkind+=number(r.inKindValue);item.total+=number(r.totalValue);map.set(normalized,item);
@@ -67,7 +69,9 @@ function updateDashboard(){
   const rows=confirmedRows(),cash=rows.reduce((s,r)=>s+number(r.cashAmount),0),inkind=rows.reduce((s,r)=>s+number(r.inKindValue),0),total=rows.reduce((s,r)=>s+number(r.totalValue),0);
   const donationPartners=aggregates("stakeholderName",records),rankedPartners=aggregates("stakeholderName"),projects=aggregates("programProject");
   const partners=registeredStakeholders.length?registeredStakeholders:donationPartners;
-  const partnerCount=registeredStakeholderCount||partners.length;
+  const rawPartnerNames=new Set(records.map(r=>String(r.stakeholderName||"").trim().replace(/\s+/g," ").toLocaleLowerCase()));
+  const mergedLguDuplicate=rawPartnerNames.has("local government unit")&&rawPartnerNames.has("lgu sagay")?1:0;
+  const partnerCount=(registeredStakeholderCount||partners.length)-mergedLguDuplicate;
   const metrics=document.querySelectorAll("#dashboard .metric");
   if(metrics.length>=4){
     metrics[0].querySelector(".amount").textContent=peso.format(total);metrics[0].querySelector("small").textContent=`${rows.length} confirmed donation records`;
