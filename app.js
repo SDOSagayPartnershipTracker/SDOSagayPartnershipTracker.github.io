@@ -69,10 +69,7 @@ function updateDashboard(){
   const rows=confirmedRows(),cash=rows.reduce((s,r)=>s+number(r.cashAmount),0),inkind=rows.reduce((s,r)=>s+number(r.inKindValue),0),total=rows.reduce((s,r)=>s+number(r.totalValue),0);
   const donationPartners=aggregates("stakeholderName",records),rankedPartners=aggregates("stakeholderName"),projects=aggregates("programProject");
   const partners=registeredStakeholders.length?registeredStakeholders:donationPartners;
-  const rawPartnerNames=new Set(records.map(r=>String(r.stakeholderName||"").trim().replace(/\s+/g," ").toLocaleLowerCase()));
-  const cityLguNames=[...rawPartnerNames].filter(name=>canonicalPartnerName(name)==="LOCAL GOVERNMENT UNIT");
-  const mergedLguDuplicate=Math.max(0,cityLguNames.length-1);
-  const partnerCount=(registeredStakeholderCount||partners.length)-mergedLguDuplicate;
+  const partnerCount=registeredStakeholderCount||partners.length;
   const metrics=document.querySelectorAll("#dashboard .metric");
   if(metrics.length>=4){
     metrics[0].querySelector(".amount").textContent=peso.format(total);metrics[0].querySelector("small").textContent=`${rows.length} confirmed donation records`;
