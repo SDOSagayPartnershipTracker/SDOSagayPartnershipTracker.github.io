@@ -37,12 +37,13 @@ function renderDonations(){
   };
 }
 
-function aggregates(key){
+function aggregates(key,source=confirmedRows()){
   const map=new Map();
-  confirmedRows().forEach(r=>{
-    const name=String(r[key]||"Unspecified").trim();
-    const item=map.get(name)||{name,records:0,cash:0,inkind:0,total:0};
-    item.records++;item.cash+=number(r.cashAmount);item.inkind+=number(r.inKindValue);item.total+=number(r.totalValue);map.set(name,item);
+  source.forEach(r=>{
+    const name=String(r[key]||"Unspecified").trim().replace(/\s+/g," ");
+    const normalized=name.toLocaleLowerCase();
+    const item=map.get(normalized)||{name,records:0,cash:0,inkind:0,total:0};
+    item.records++;item.cash+=number(r.cashAmount);item.inkind+=number(r.inKindValue);item.total+=number(r.totalValue);map.set(normalized,item);
   });
   return [...map.values()].sort((a,b)=>b.total-a.total);
 }
@@ -57,7 +58,7 @@ function renderDirectory(sectionId,key,label){
 
 function updateDashboard(){
   const rows=confirmedRows(),cash=rows.reduce((s,r)=>s+number(r.cashAmount),0),inkind=rows.reduce((s,r)=>s+number(r.inKindValue),0),total=rows.reduce((s,r)=>s+number(r.totalValue),0);
-  const partners=aggregates("stakeholderName"),projects=aggregates("programProject");
+  const partners=aggregates("stakeholderName",records),rankedPartners=aggregates("stakeholderName"),projects=aggregates("programProject");
   const metrics=document.querySelectorAll("#dashboard .metric");
   if(metrics.length>=4){
     metrics[0].querySelector(".amount").textContent=peso.format(total);metrics[0].querySelector("small").textContent=`${rows.length} confirmed donation records`;
@@ -75,7 +76,7 @@ function updateDashboard(){
   if(monthStrong)monthStrong.textContent=peso.format(monthTotal);
   const ranking=document.querySelector("#dashboard .rankings");
   if(ranking){
-    const top=partners.slice(0,5),max=top[0]?.total||1;
+    const top=rankedPartners.slice(0,5),max=top[0]?.total||1;
     ranking.innerHTML=top.map((x,i)=>`<div class="rank"><span class="rankno">${String(i+1).padStart(2,"0")}</span><div>${esc(x.name)}<div class="track"><i style="width:${x.total/max*100}%"></i></div></div><strong>${peso.format(x.total)}</strong></div>`).join("");
   }
   const monthlyMap=new Map();
