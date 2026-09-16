@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T08:05:03.0796976Z",
+  "updatedAt": "2026-09-16T08:10:02.0416638Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1312,6 +1312,19 @@
       "programProject": "Learner Support Activities",
       "beneficiarySchools": "PLARIDEL ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "50",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46190",
+      "stakeholderName": "LGU SAGAY CITY",
+      "donationType": "School Supplies",
+      "description": "BAGS, PENCIL, NOTEBOOK, RAINCOAT, BALLPEN, CRAYON",
+      "cashAmount": "0",
+      "inKindValue": "94, 413.00",
+      "totalValue": "#VALUE!",
+      "programProject": "Batang Sagaynon Kampeon Program",
+      "beneficiarySchools": "PLARIDEL ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "311",
       "status": "Confirmed"
     }
   ],
