@@ -101,3 +101,4 @@ async function loadLiveData(){
   }
 }
 loadLiveData();
+setInterval(loadLiveData,300000);
