@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T13:15:02.0092126Z",
+  "updatedAt": "2026-09-16T13:20:02.2886497Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1352,9 +1352,35 @@
       "beneficiarySchools": "JESUS LIZARES NHS",
       "numberOfBeneficiaries": "50",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46244",
+      "stakeholderName": "Friends of Bing Grace Morizawa",
+      "donationType": "School Supplies",
+      "description": "Papers and Pencils",
+      "cashAmount": "0",
+      "inKindValue": "0",
+      "totalValue": "0",
+      "programProject": "Adopt a School Program",
+      "beneficiarySchools": "Suyac Elementary School",
+      "numberOfBeneficiaries": "107",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46196",
+      "stakeholderName": "LGU-Sagay City",
+      "donationType": "School Supplies",
+      "description": "Tumbler, Intermediate pad, Calculator",
+      "cashAmount": "0",
+      "inKindValue": "206584",
+      "totalValue": "206584",
+      "programProject": "Project Lapis kag Papel",
+      "beneficiarySchools": "Jesus Lizares NHS",
+      "numberOfBeneficiaries": "429",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 97,
+  "stakeholderCount": 99,
   "stakeholders": [],
   "projects": []
 }
