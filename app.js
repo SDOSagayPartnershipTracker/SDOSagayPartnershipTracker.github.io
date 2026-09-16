@@ -101,7 +101,7 @@ function updateDashboard(){
 
 async function loadLiveData(){
   try{
-    const response=await fetch("data.json?v="+Date.now(),{cache:"no-store"});
+    const response=await fetch("https://raw.githubusercontent.com/SDOSagayPartnershipTracker/SDOSagayPartnershipTracker.github.io/main/data.json?v="+Date.now(),{cache:"no-store"});
     if(!response.ok)throw new Error("Data file unavailable");
     const data=await response.json();records=Array.isArray(data.donations)?data.donations:[];registeredStakeholders=Array.isArray(data.stakeholders)?data.stakeholders:[];registeredStakeholderCount=number(data.stakeholderCount);window.liveUpdatedAt=data.updatedAt||new Date().toISOString();
     renderDonations();renderDirectory("stakeholders","stakeholderName","Stakeholder");renderDirectory("projects","programProject","Program / Project");updateDashboard();
