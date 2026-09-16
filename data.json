@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T07:55:02.6339751Z",
+  "updatedAt": "2026-09-16T08:00:07.2725103Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1300,9 +1300,22 @@
       "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "359",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46202",
+      "stakeholderName": "FO GUANG SHAN YUAN THONG TEMPLE",
+      "donationType": "Other",
+      "description": "Provision of Footwear for Learners",
+      "cashAmount": "0",
+      "inKindValue": "10, 000.00",
+      "totalValue": "#VALUE!",
+      "programProject": "Learner Support Activities",
+      "beneficiarySchools": "PLARIDEL ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "50",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 94,
+  "stakeholderCount": 95,
   "stakeholders": [],
   "projects": []
 }
