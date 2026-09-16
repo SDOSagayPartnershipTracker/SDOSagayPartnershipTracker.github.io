@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T07:35:04.9370375Z",
+  "updatedAt": "2026-09-16T07:40:02.6659210Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1261,9 +1261,22 @@
       "beneficiarySchools": "TALUSAN ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "802",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46024",
+      "stakeholderName": "NAICEL DIVINAGRACIA",
+      "donationType": "Other",
+      "description": "Track Tires",
+      "cashAmount": "0",
+      "inKindValue": "10, 000.00",
+      "totalValue": "#VALUE!",
+      "programProject": "School Improvement Activities",
+      "beneficiarySchools": "TALUSAN ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "802",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 92,
+  "stakeholderCount": 93,
   "stakeholders": [],
   "projects": []
 }
