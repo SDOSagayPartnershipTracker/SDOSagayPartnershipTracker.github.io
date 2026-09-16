@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T13:10:01.6970540Z",
+  "updatedAt": "2026-09-16T13:15:02.0092126Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1339,9 +1339,22 @@
       "beneficiarySchools": "TALUSAN ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "50",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46174",
+      "stakeholderName": "SK FEDERATION - Brgy. Lopez Jaena",
+      "donationType": "Other",
+      "description": "Paints, Paint brush",
+      "cashAmount": "0",
+      "inKindValue": "3500",
+      "totalValue": "3500",
+      "programProject": "Brigada Eskwela",
+      "beneficiarySchools": "JESUS LIZARES NHS",
+      "numberOfBeneficiaries": "50",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 96,
+  "stakeholderCount": 97,
   "stakeholders": [],
   "projects": []
 }
