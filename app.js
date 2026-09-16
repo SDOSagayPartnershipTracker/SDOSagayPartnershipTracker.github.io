@@ -1,5 +1,5 @@
 const peso=new Intl.NumberFormat("en-PH",{style:"currency",currency:"PHP",minimumFractionDigits:2});
-let records=[],registeredStakeholders=[];
+let records=[],registeredStakeholders=[],registeredStakeholderCount=0;
 const number=v=>{const n=Number(String(v??0).replace(/,/g,""));return Number.isFinite(n)?n:0};
 const excelDate=v=>{
   if(!v)return null;
@@ -67,12 +67,13 @@ function updateDashboard(){
   const rows=confirmedRows(),cash=rows.reduce((s,r)=>s+number(r.cashAmount),0),inkind=rows.reduce((s,r)=>s+number(r.inKindValue),0),total=rows.reduce((s,r)=>s+number(r.totalValue),0);
   const donationPartners=aggregates("stakeholderName",records),rankedPartners=aggregates("stakeholderName"),projects=aggregates("programProject");
   const partners=registeredStakeholders.length?registeredStakeholders:donationPartners;
+  const partnerCount=registeredStakeholderCount||partners.length;
   const metrics=document.querySelectorAll("#dashboard .metric");
   if(metrics.length>=4){
     metrics[0].querySelector(".amount").textContent=peso.format(total);metrics[0].querySelector("small").textContent=`${rows.length} confirmed donation records`;
     metrics[1].querySelector(".amount").textContent=peso.format(cash);
     metrics[2].querySelector(".amount").textContent=peso.format(inkind);
-    metrics[3].querySelector(".amount").textContent=String(partners.length);metrics[3].querySelector("small").textContent=`${partners.length} active partnerships`;
+    metrics[3].querySelector(".amount").textContent=String(partnerCount);metrics[3].querySelector("small").textContent=`${partnerCount} registered partners`;
   }
   const division=rows.filter(r=>String(r.beneficiarySchools).toLowerCase().includes("division office")).reduce((s,r)=>s+number(r.totalValue),0);
   const schools=total-division,alloc=document.querySelectorAll("#dashboard .allocation strong");
@@ -102,7 +103,7 @@ async function loadLiveData(){
   try{
     const response=await fetch("data.json?v="+Date.now(),{cache:"no-store"});
     if(!response.ok)throw new Error("Data file unavailable");
-    const data=await response.json();records=Array.isArray(data.donations)?data.donations:[];registeredStakeholders=Array.isArray(data.stakeholders)?data.stakeholders:[];window.liveUpdatedAt=data.updatedAt||new Date().toISOString();
+    const data=await response.json();records=Array.isArray(data.donations)?data.donations:[];registeredStakeholders=Array.isArray(data.stakeholders)?data.stakeholders:[];registeredStakeholderCount=number(data.stakeholderCount);window.liveUpdatedAt=data.updatedAt||new Date().toISOString();
     renderDonations();renderDirectory("stakeholders","stakeholderName","Stakeholder");renderDirectory("projects","programProject","Program / Project");updateDashboard();
   }catch(error){
     console.error(error);
