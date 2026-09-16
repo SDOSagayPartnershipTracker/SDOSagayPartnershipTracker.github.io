@@ -1,5 +1,5 @@
 const peso=new Intl.NumberFormat("en-PH",{style:"currency",currency:"PHP",minimumFractionDigits:2});
-let records=[];
+let records=[],registeredStakeholders=[];
 const number=v=>{const n=Number(String(v??0).replace(/,/g,""));return Number.isFinite(n)?n:0};
 const excelDate=v=>{
   if(!v)return null;
@@ -51,14 +51,22 @@ function aggregates(key,source=confirmedRows()){
 function renderDirectory(sectionId,key,label){
   const host=document.querySelector(`#${sectionId} .empty`);
   if(!host)return;
-  const data=aggregates(key);
+  let data=aggregates(key);
+  if(sectionId==="stakeholders"&&registeredStakeholders.length){
+    const totals=new Map(data.map(x=>[x.name.toLocaleLowerCase(),x]));
+    data=registeredStakeholders.map(row=>{
+      const name=String(row.stakeholderName||"").trim().replace(/\s+/g," ");
+      return totals.get(name.toLocaleLowerCase())||{name,records:0,cash:0,inkind:0,total:0};
+    });
+  }
   host.className="tablewrap";
   host.innerHTML=`<table class="datatable"><thead><tr><th>${label}</th><th>Confirmed Records</th><th>Cash</th><th>In-kind</th><th>Total Support</th></tr></thead><tbody>${data.map(x=>`<tr><td><b>${esc(x.name)}</b></td><td>${x.records}</td><td>${peso.format(x.cash)}</td><td>${peso.format(x.inkind)}</td><td><b>${peso.format(x.total)}</b></td></tr>`).join("")}</tbody></table>`;
 }
 
 function updateDashboard(){
   const rows=confirmedRows(),cash=rows.reduce((s,r)=>s+number(r.cashAmount),0),inkind=rows.reduce((s,r)=>s+number(r.inKindValue),0),total=rows.reduce((s,r)=>s+number(r.totalValue),0);
-  const partners=aggregates("stakeholderName",records),rankedPartners=aggregates("stakeholderName"),projects=aggregates("programProject");
+  const donationPartners=aggregates("stakeholderName",records),rankedPartners=aggregates("stakeholderName"),projects=aggregates("programProject");
+  const partners=registeredStakeholders.length?registeredStakeholders:donationPartners;
   const metrics=document.querySelectorAll("#dashboard .metric");
   if(metrics.length>=4){
     metrics[0].querySelector(".amount").textContent=peso.format(total);metrics[0].querySelector("small").textContent=`${rows.length} confirmed donation records`;
@@ -94,7 +102,7 @@ async function loadLiveData(){
   try{
     const response=await fetch("data.json?v="+Date.now(),{cache:"no-store"});
     if(!response.ok)throw new Error("Data file unavailable");
-    const data=await response.json();records=Array.isArray(data.donations)?data.donations:[];window.liveUpdatedAt=data.updatedAt||new Date().toISOString();
+    const data=await response.json();records=Array.isArray(data.donations)?data.donations:[];registeredStakeholders=Array.isArray(data.stakeholders)?data.stakeholders:[];window.liveUpdatedAt=data.updatedAt||new Date().toISOString();
     renderDonations();renderDirectory("stakeholders","stakeholderName","Stakeholder");renderDirectory("projects","programProject","Program / Project");updateDashboard();
   }catch(error){
     console.error(error);
