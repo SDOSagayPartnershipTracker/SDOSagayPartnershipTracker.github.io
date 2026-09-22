@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T14:15:02.3118544Z",
+  "updatedAt": "2026-09-22T14:20:02.4893398Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1380,7 +1380,7 @@
       "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 95,
+  "stakeholderCount": 96,
   "stakeholders": [],
   "projects": []
 }
