@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T09:10:02.9443563Z",
+  "updatedAt": "2026-09-24T09:15:02.4965502Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1378,9 +1378,22 @@
       "beneficiarySchools": "Jesus Lizares NHS",
       "numberOfBeneficiaries": "429",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46288",
+      "stakeholderName": "BRGY. PUEY ",
+      "donationType": "Cash",
+      "description": "For Allotment of Feeding Weekly",
+      "cashAmount": "1000",
+      "inKindValue": "0",
+      "totalValue": "1000",
+      "programProject": "Feeding Program",
+      "beneficiarySchools": "Manara Integrated School ",
+      "numberOfBeneficiaries": "178",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 96,
+  "stakeholderCount": 97,
   "stakeholders": [],
   "projects": []
 }
