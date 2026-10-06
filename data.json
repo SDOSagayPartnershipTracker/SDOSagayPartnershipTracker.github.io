@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T05:50:01.6873243Z",
+  "updatedAt": "2026-10-06T05:55:04.4148305Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1404,9 +1404,22 @@
       "beneficiarySchools": "Bato National High School",
       "numberOfBeneficiaries": "1568",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46081",
+      "stakeholderName": "SCHOOL PTA ",
+      "donationType": "Infrastructure Materials",
+      "description": "Covered court repair, sound system, plastic chairs",
+      "cashAmount": "P169,259.00",
+      "inKindValue": "---",
+      "totalValue": "#VALUE!",
+      "programProject": "---",
+      "beneficiarySchools": "Bato National High School",
+      "numberOfBeneficiaries": "2500",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 98,
+  "stakeholderCount": 99,
   "stakeholders": [],
   "projects": []
 }
