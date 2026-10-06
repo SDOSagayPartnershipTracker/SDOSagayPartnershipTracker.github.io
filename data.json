@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T05:55:04.4148305Z",
+  "updatedAt": "2026-10-06T06:00:03.3742396Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1417,9 +1417,22 @@
       "beneficiarySchools": "Bato National High School",
       "numberOfBeneficiaries": "2500",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46301",
+      "stakeholderName": "Sagay Central Incorporated",
+      "donationType": "Cash",
+      "description": "Feeding and Electricity Subsidy",
+      "cashAmount": "P6000 Monthly",
+      "inKindValue": "----",
+      "totalValue": "#VALUE!",
+      "programProject": "---",
+      "beneficiarySchools": "Bato National High School",
+      "numberOfBeneficiaries": "1000",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 99,
+  "stakeholderCount": 100,
   "stakeholders": [],
   "projects": []
 }
