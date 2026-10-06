@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T06:40:04.0452193Z",
+  "updatedAt": "2026-10-06T06:45:02.2781280Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1443,9 +1443,22 @@
       "beneficiarySchools": "MANARA INTEGRATED SCHOOL ",
       "numberOfBeneficiaries": "85",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46190",
+      "stakeholderName": "LGU - SAGAY",
+      "donationType": "School Supplies",
+      "description": "Tumblers, calculators, intermediate pads",
+      "cashAmount": "0",
+      "inKindValue": "244000",
+      "totalValue": "244000",
+      "programProject": "Project Lapis kag Papel",
+      "beneficiarySchools": "SAGAY CITY ECO-ZONE FARM SCHOOL",
+      "numberOfBeneficiaries": "501",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 101,
+  "stakeholderCount": 102,
   "stakeholders": [],
   "projects": []
 }
