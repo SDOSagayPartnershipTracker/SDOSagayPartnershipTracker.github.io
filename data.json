@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T06:00:01.6643070Z",
+  "updatedAt": "2026-10-09T06:05:02.2588090Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1521,9 +1521,35 @@
       "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
       "numberOfBeneficiaries": "20",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46027",
+      "stakeholderName": "ENTINGS SPECIAL OF SAGAY",
+      "donationType": "Other",
+      "description": "WORK IMMERSION PARTNER",
+      "cashAmount": "---",
+      "inKindValue": "----",
+      "totalValue": "#VALUE!",
+      "programProject": "---",
+      "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
+      "numberOfBeneficiaries": "15",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46027",
+      "stakeholderName": "MIMILOTS BATCHOYAN",
+      "donationType": "Other",
+      "description": "WORK IMMERSION PARTNER",
+      "cashAmount": "---",
+      "inKindValue": "----",
+      "totalValue": "#VALUE!",
+      "programProject": "---",
+      "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
+      "numberOfBeneficiaries": "10",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 106,
+  "stakeholderCount": 108,
   "stakeholders": [],
   "projects": []
 }
