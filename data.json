@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T05:35:02.5711799Z",
+  "updatedAt": "2026-10-09T05:40:02.3647348Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1469,9 +1469,22 @@
       "beneficiarySchools": "VALERIANA G. ANALUCAS INTEGRATED SCHOOL",
       "numberOfBeneficiaries": "217",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46146",
+      "stakeholderName": "SACKS OF RICE",
+      "donationType": "Food",
+      "description": "RICE",
+      "cashAmount": "----",
+      "inKindValue": "----",
+      "totalValue": "#VALUE!",
+      "programProject": "---",
+      "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
+      "numberOfBeneficiaries": "100",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 103,
+  "stakeholderCount": 104,
   "stakeholders": [],
   "projects": []
 }
