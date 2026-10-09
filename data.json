@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T05:40:02.3647348Z",
+  "updatedAt": "2026-10-09T05:45:02.0779247Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1481,6 +1481,19 @@
       "programProject": "---",
       "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
       "numberOfBeneficiaries": "100",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46262",
+      "stakeholderName": "BRGY. BATO SK COUNCIL",
+      "donationType": "Furniture and Fixtures",
+      "description": "TELEVISION, ELECTRIC FANS, DISTRICT MEET WATER AND FOODS",
+      "cashAmount": "---",
+      "inKindValue": "FOODS (P 7000.00)",
+      "totalValue": "#VALUE!",
+      "programProject": "---",
+      "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
+      "numberOfBeneficiaries": "500",
       "status": "Confirmed"
     }
   ],
