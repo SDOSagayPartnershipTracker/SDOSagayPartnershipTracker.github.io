@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T06:10:02.7506923Z",
+  "updatedAt": "2026-10-09T06:15:02.5389766Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1573,9 +1573,35 @@
       "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
       "numberOfBeneficiaries": "10",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46027",
+      "stakeholderName": "LGU SAGAY CITY",
+      "donationType": "Other",
+      "description": "WORK IMMERSION PARTNER",
+      "cashAmount": "---",
+      "inKindValue": "---",
+      "totalValue": "#VALUE!",
+      "programProject": "---",
+      "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
+      "numberOfBeneficiaries": "15",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46027",
+      "stakeholderName": "SAN CARLOS INDUSTRIAL ENGINEERING SERVICES",
+      "donationType": "Other",
+      "description": "WORK IMMERSION PARTNER",
+      "cashAmount": "---",
+      "inKindValue": "---",
+      "totalValue": "#VALUE!",
+      "programProject": "---",
+      "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
+      "numberOfBeneficiaries": "10",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 110,
+  "stakeholderCount": 112,
   "stakeholders": [],
   "projects": []
 }
