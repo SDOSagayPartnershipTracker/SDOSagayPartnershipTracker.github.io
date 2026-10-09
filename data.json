@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T05:45:02.0779247Z",
+  "updatedAt": "2026-10-09T05:50:01.7846553Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1495,9 +1495,22 @@
       "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
       "numberOfBeneficiaries": "500",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46167",
+      "stakeholderName": "BATO NHS ALUMNI ASSOCIATION",
+      "donationType": "Furniture and Fixtures",
+      "description": "ELECTRIC FANS---",
+      "cashAmount": "---",
+      "inKindValue": "---",
+      "totalValue": "#VALUE!",
+      "programProject": "---",
+      "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
+      "numberOfBeneficiaries": "100",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 104,
+  "stakeholderCount": 105,
   "stakeholders": [],
   "projects": []
 }
