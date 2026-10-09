@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T06:05:02.2588090Z",
+  "updatedAt": "2026-10-09T06:10:02.7506923Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1547,9 +1547,35 @@
       "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
       "numberOfBeneficiaries": "10",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46027",
+      "stakeholderName": "NEZZY CAKE HAUS",
+      "donationType": "Other",
+      "description": "WORK IMMERSION PARTNER",
+      "cashAmount": "---",
+      "inKindValue": "---",
+      "totalValue": "#VALUE!",
+      "programProject": "---",
+      "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
+      "numberOfBeneficiaries": "10",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46027",
+      "stakeholderName": "SAMCOR TRAVELLERS INN",
+      "donationType": "Other",
+      "description": "WORK IMMERSION PARTNER",
+      "cashAmount": "---",
+      "inKindValue": "---",
+      "totalValue": "#VALUE!",
+      "programProject": "---",
+      "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
+      "numberOfBeneficiaries": "10",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 108,
+  "stakeholderCount": 110,
   "stakeholders": [],
   "projects": []
 }
