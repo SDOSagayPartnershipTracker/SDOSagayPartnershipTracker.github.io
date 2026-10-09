@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T04:45:02.0145438Z",
+  "updatedAt": "2026-10-09T04:50:03.6795166Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1456,9 +1456,22 @@
       "beneficiarySchools": "SAGAY CITY ECO-ZONE FARM SCHOOL",
       "numberOfBeneficiaries": "501",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46288",
+      "stakeholderName": "BRGY MALUBON SK FEDERATION",
+      "donationType": "Other",
+      "description": "3 BADMINTON RACKET, 1 VOLLEYBALL BALL",
+      "cashAmount": "0",
+      "inKindValue": "4881",
+      "totalValue": "4881",
+      "programProject": "SPORTS GUILD",
+      "beneficiarySchools": "VALERIANA G. ANALUCAS INTEGRATED SCHOOL",
+      "numberOfBeneficiaries": "217",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 102,
+  "stakeholderCount": 103,
   "stakeholders": [],
   "projects": []
 }
