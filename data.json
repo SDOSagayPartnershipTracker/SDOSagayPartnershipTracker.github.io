@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T05:55:01.6693026Z",
+  "updatedAt": "2026-10-09T06:00:01.6643070Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1508,9 +1508,22 @@
       "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
       "numberOfBeneficiaries": "100",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46027",
+      "stakeholderName": "CONFITERIA DULCE RESTAURANT AND CATERING SERVICES",
+      "donationType": "Other",
+      "description": "WORK IMMERSION PARTNER",
+      "cashAmount": "---",
+      "inKindValue": "---",
+      "totalValue": "#VALUE!",
+      "programProject": "---",
+      "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
+      "numberOfBeneficiaries": "20",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 105,
+  "stakeholderCount": 106,
   "stakeholders": [],
   "projects": []
 }
