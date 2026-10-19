@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T07:05:03.2160007Z",
+  "updatedAt": "2026-10-19T07:10:02.5462669Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1690,9 +1690,22 @@
       "beneficiarySchools": "SDO Sagay",
       "numberOfBeneficiaries": "2200",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46313",
+      "stakeholderName": "Vian Lee ",
+      "donationType": "Food",
+      "description": "Gatorade,burger,juice",
+      "cashAmount": "0",
+      "inKindValue": "1500",
+      "totalValue": "1500",
+      "programProject": "Sports Event ",
+      "beneficiarySchools": "Alfredo E. Marañon Sr. Elem. School",
+      "numberOfBeneficiaries": "15",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 117,
+  "stakeholderCount": 118,
   "stakeholders": [],
   "projects": []
 }
