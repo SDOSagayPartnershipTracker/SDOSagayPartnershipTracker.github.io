@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T05:30:02.3040106Z",
+  "updatedAt": "2026-10-19T05:35:02.0897942Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1625,9 +1625,22 @@
       "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "30",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46307",
+      "stakeholderName": "Con. Thirdy",
+      "donationType": "Other",
+      "description": "Soccer Ball",
+      "cashAmount": "0",
+      "inKindValue": "1200",
+      "totalValue": "1200",
+      "programProject": "School Sports Activities",
+      "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "360",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 113,
+  "stakeholderCount": 114,
   "stakeholders": [],
   "projects": []
 }
