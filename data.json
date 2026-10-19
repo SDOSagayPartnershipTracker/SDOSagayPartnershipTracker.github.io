@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T06:30:01.4152238Z",
+  "updatedAt": "2026-10-19T06:35:01.9532127Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1651,9 +1651,35 @@
       "beneficiarySchools": "SDO Sagay City",
       "numberOfBeneficiaries": "2200",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46296",
+      "stakeholderName": "GRACE BING MORIZAWA",
+      "donationType": "Food",
+      "description": "FOOD FOR TTEACHERS' DAY",
+      "cashAmount": "0",
+      "inKindValue": "P 5,600.00",
+      "totalValue": "#VALUE!",
+      "programProject": "TEACHERS'DAY",
+      "beneficiarySchools": "JOSEBIO L. GONZAGA MEMORIAL SCHOOL-Main",
+      "numberOfBeneficiaries": "19",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46314",
+      "stakeholderName": "Bryan D. Orosio",
+      "donationType": "Cash",
+      "description": "Cash",
+      "cashAmount": "1000",
+      "inKindValue": "0",
+      "totalValue": "1000",
+      "programProject": "AEMSES Volleyball Boys",
+      "beneficiarySchools": "Alfredo E. Maranon Sr. Elementary School",
+      "numberOfBeneficiaries": "15",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 115,
+  "stakeholderCount": 117,
   "stakeholders": [],
   "projects": []
 }
