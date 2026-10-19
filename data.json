@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T05:40:02.4318913Z",
+  "updatedAt": "2026-10-19T05:45:02.7319996Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1638,9 +1638,22 @@
       "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "360",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46295",
+      "stakeholderName": "Office of the 2nd Congressional District",
+      "donationType": "Cash",
+      "description": "Sponsorship of Door Prizes for World Teachers' Day 2026",
+      "cashAmount": "20000",
+      "inKindValue": "0",
+      "totalValue": "20000",
+      "programProject": "World Teachers' Day 2026",
+      "beneficiarySchools": "SDO Sagay City",
+      "numberOfBeneficiaries": "2200",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 114,
+  "stakeholderCount": 115,
   "stakeholders": [],
   "projects": []
 }
