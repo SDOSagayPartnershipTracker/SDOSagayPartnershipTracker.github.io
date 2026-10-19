@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T05:15:02.9981869Z",
+  "updatedAt": "2026-10-19T05:20:02.6956772Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1612,9 +1612,22 @@
       "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "130",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46307",
+      "stakeholderName": "ROBERT FEL RUBIN",
+      "donationType": "Other",
+      "description": "FEEDING PROGRAM INGREDIENTS",
+      "cashAmount": "0",
+      "inKindValue": "1500",
+      "totalValue": "1500",
+      "programProject": "SCHOOL FEEDING PROGRAM",
+      "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "30",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 112,
+  "stakeholderCount": 113,
   "stakeholders": [],
   "projects": []
 }
