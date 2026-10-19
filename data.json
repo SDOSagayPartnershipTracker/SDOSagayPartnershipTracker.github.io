@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T06:50:05.2084590Z",
+  "updatedAt": "2026-10-19T06:55:01.8601008Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1676,6 +1676,19 @@
       "programProject": "AEMSES Volleyball Boys",
       "beneficiarySchools": "Alfredo E. Maranon Sr. Elementary School",
       "numberOfBeneficiaries": "15",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46295",
+      "stakeholderName": "Office of the 2nd Congressional District",
+      "donationType": "Cash",
+      "description": "Door Prizes for World Teachers Day 2026",
+      "cashAmount": "180000",
+      "inKindValue": "0",
+      "totalValue": "180000",
+      "programProject": "World Teachers' Day",
+      "beneficiarySchools": "SDO Sagay",
+      "numberOfBeneficiaries": "2200",
       "status": "Confirmed"
     }
   ],
