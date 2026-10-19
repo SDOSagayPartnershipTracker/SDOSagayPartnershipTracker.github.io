@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T03:20:03.5775016Z",
+  "updatedAt": "2026-10-19T03:25:02.5374459Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1476,7 +1476,7 @@
       "donationType": "Food",
       "description": "RICE",
       "cashAmount": "----",
-      "inKindValue": "----",
+      "inKindValue": "7000",
       "totalValue": "",
       "programProject": "---",
       "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
@@ -1489,7 +1489,7 @@
       "donationType": "Furniture and Fixtures",
       "description": "TELEVISION, ELECTRIC FANS, DISTRICT MEET WATER AND FOODS",
       "cashAmount": "---",
-      "inKindValue": "FOODS (P 7000.00)",
+      "inKindValue": "10000",
       "totalValue": "",
       "programProject": "---",
       "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
@@ -1502,7 +1502,7 @@
       "donationType": "Furniture and Fixtures",
       "description": "ELECTRIC FANS---",
       "cashAmount": "---",
-      "inKindValue": "---",
+      "inKindValue": "",
       "totalValue": "",
       "programProject": "---",
       "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
