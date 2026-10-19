@@ -83,7 +83,10 @@ function updateDashboard(){
   if(alloc.length>=2){alloc[0].textContent=peso.format(schools);alloc[1].textContent=peso.format(division)}
   const bars=document.querySelectorAll("#dashboard .bar > *");
   if(bars.length>=2&&total){bars[0].style.width=(schools/total*100)+"%";bars[1].style.width=(division/total*100)+"%"}
-  const now=new Date(),monthly=rows.filter(r=>{const d=excelDate(r.dateReceived);return d&&d.getUTCFullYear()===now.getUTCFullYear()&&d.getUTCMonth()===now.getUTCMonth()});
+  const now=new Date(),monthLabel=new Intl.DateTimeFormat("en-PH",{month:"long",year:"numeric"}).format(now),monthly=rows.filter(r=>{const d=excelDate(r.dateReceived);return d&&d.getUTCFullYear()===now.getUTCFullYear()&&d.getUTCMonth()===now.getUTCMonth()});
+  const monthTitle=document.querySelector("#dashboard .month b"),partnerBadge=document.querySelector("#dashboard .partnerhead .badge");
+  if(monthTitle)monthTitle.textContent=`Donations in ${monthLabel}`;
+  if(partnerBadge)partnerBadge.textContent=monthLabel;
   const monthTotal=monthly.reduce((s,r)=>s+contributionTotal(r),0),monthStrong=document.querySelector("#dashboard .month strong");
   if(monthStrong)monthStrong.textContent=peso.format(monthTotal);
   const ranking=document.querySelector("#dashboard .rankings");
