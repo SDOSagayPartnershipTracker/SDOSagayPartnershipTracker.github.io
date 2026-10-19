@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T06:45:03.0061347Z",
+  "updatedAt": "2026-10-19T06:50:05.2084590Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1659,7 +1659,7 @@
       "description": "FOOD FOR TTEACHERS' DAY",
       "cashAmount": "0",
       "inKindValue": "P 5,600.00",
-      "totalValue": "#VALUE!",
+      "totalValue": "5600",
       "programProject": "TEACHERS'DAY",
       "beneficiarySchools": "JOSEBIO L. GONZAGA MEMORIAL SCHOOL-Main",
       "numberOfBeneficiaries": "19",
