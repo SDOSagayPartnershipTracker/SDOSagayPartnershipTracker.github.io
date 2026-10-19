@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T05:05:01.9147693Z",
+  "updatedAt": "2026-10-19T05:10:02.7929688Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1598,6 +1598,19 @@
       "programProject": "---",
       "beneficiarySchools": "BATO NATIONAL HIGH SCHOOL",
       "numberOfBeneficiaries": "10",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46311",
+      "stakeholderName": "SPTA OFFICERS",
+      "donationType": "Food",
+      "description": "SCHOOL FEEDING PROGRAM",
+      "cashAmount": "0",
+      "inKindValue": "2000",
+      "totalValue": "2000",
+      "programProject": "FEEDING PROGRAM",
+      "beneficiarySchools": "BULANON ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "130",
       "status": "Confirmed"
     }
   ],
