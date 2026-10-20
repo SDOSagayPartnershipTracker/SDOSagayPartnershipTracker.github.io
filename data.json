@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T06:30:02.7935932Z",
+  "updatedAt": "2026-10-20T06:35:02.1998435Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1703,9 +1703,22 @@
       "beneficiarySchools": "Alfredo E. Marañon Sr. Elem. School",
       "numberOfBeneficiaries": "15",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46314",
+      "stakeholderName": "PARENTS",
+      "donationType": "Cash",
+      "description": "SPEAKER",
+      "cashAmount": "PHP 13995.00",
+      "inKindValue": "PHP 13995.00",
+      "totalValue": "#VALUE!",
+      "programProject": "GRADE 1 AND 6 LEARNERS",
+      "beneficiarySchools": "GENERAL LUNA ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "88",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 118,
+  "stakeholderCount": 119,
   "stakeholders": [],
   "projects": []
 }
