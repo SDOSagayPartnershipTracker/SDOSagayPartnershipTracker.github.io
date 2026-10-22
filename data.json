@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T06:20:02.0735283Z",
+  "updatedAt": "2026-10-22T06:25:02.9872851Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1716,9 +1716,22 @@
       "beneficiarySchools": "GENERAL LUNA ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "88",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46310",
+      "stakeholderName": "Parents (Volounter)",
+      "donationType": "Other",
+      "description": "Clean up of school premises",
+      "cashAmount": "0",
+      "inKindValue": "1200",
+      "totalValue": "1200",
+      "programProject": "Volounteer",
+      "beneficiarySchools": "Matabas ES",
+      "numberOfBeneficiaries": "N/A",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 119,
+  "stakeholderCount": 120,
   "stakeholders": [],
   "projects": []
 }
