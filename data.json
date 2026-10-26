@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T02:45:01.4032920Z",
+  "updatedAt": "2026-10-26T02:50:02.0363083Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1711,7 +1711,7 @@
       "description": "SPEAKER",
       "cashAmount": "PHP 13995.00",
       "inKindValue": "PHP 13995.00",
-      "totalValue": "#VALUE!",
+      "totalValue": "0",
       "programProject": "GRADE 1 AND 6 LEARNERS",
       "beneficiarySchools": "GENERAL LUNA ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "88",
