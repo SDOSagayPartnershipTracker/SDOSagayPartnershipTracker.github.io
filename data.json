@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T11:45:02.2112336Z",
+  "updatedAt": "2026-10-29T11:50:01.7558732Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1737,7 +1737,7 @@
       "description": "Cash",
       "cashAmount": "1000 pesos",
       "inKindValue": "1000",
-      "totalValue": "#VALUE!",
+      "totalValue": "1000",
       "programProject": "AEMSES VOLLEYBALL BOYS TEAM",
       "beneficiarySchools": "Alfredo E. Marañon Sr. Elementary School ",
       "numberOfBeneficiaries": "15",
