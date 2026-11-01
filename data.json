@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T08:55:01.3753815Z",
+  "updatedAt": "2026-11-01T09:00:04.0475803Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -442,19 +442,6 @@
       "beneficiarySchools": "LOPEZ JAENA ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "420",
       "status": "Confirmed"
-    },
-    {
-      "dateReceived": "",
-      "stakeholderName": "",
-      "donationType": "",
-      "description": "",
-      "cashAmount": "",
-      "inKindValue": "",
-      "totalValue": "",
-      "programProject": "",
-      "beneficiarySchools": "",
-      "numberOfBeneficiaries": "",
-      "status": ""
     },
     {
       "dateReceived": "46107",
