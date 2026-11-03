@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T06:20:02.2041864Z",
+  "updatedAt": "2026-11-03T06:25:02.4270541Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1735,7 +1735,7 @@
       "stakeholderName": "Famela Jee O. Yola",
       "donationType": "Cash",
       "description": "Cash",
-      "cashAmount": "1000 pesos",
+      "cashAmount": "1000",
       "inKindValue": "1000",
       "totalValue": "1000",
       "programProject": "AEMSES VOLLEYBALL BOYS TEAM",
