@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T14:25:02.8153445Z",
+  "updatedAt": "2026-11-05T14:30:02.3306027Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1755,9 +1755,22 @@
       "beneficiarySchools": "Laon Elementary School ",
       "numberOfBeneficiaries": "81",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46329",
+      "stakeholderName": "Volunteer Parents",
+      "donationType": "Other",
+      "description": "provide volunteer assistance in the maintenance of cleanliness of the school grounds and garden. ",
+      "cashAmount": "0",
+      "inKindValue": "0",
+      "totalValue": "0",
+      "programProject": "Gardening & Landscaping",
+      "beneficiarySchools": "Matabas Elementary School",
+      "numberOfBeneficiaries": "87",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 122,
+  "stakeholderCount": 123,
   "stakeholders": [],
   "projects": []
 }
