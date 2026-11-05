@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T14:05:02.4410205Z",
+  "updatedAt": "2026-11-05T14:10:02.1355103Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1742,9 +1742,22 @@
       "beneficiarySchools": "Alfredo E. Marañon Sr. Elementary School ",
       "numberOfBeneficiaries": "15",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46325",
+      "stakeholderName": "PTA OFFICERS",
+      "donationType": "Other",
+      "description": "Volunteered hours",
+      "cashAmount": "2025",
+      "inKindValue": "2025",
+      "totalValue": "4050",
+      "programProject": "N/A",
+      "beneficiarySchools": "Laon Elementary School ",
+      "numberOfBeneficiaries": "81",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 121,
+  "stakeholderCount": 122,
   "stakeholders": [],
   "projects": []
 }
