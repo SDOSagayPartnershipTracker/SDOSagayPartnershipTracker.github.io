@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T12:55:01.6472129Z",
+  "updatedAt": "2026-11-18T13:00:01.8586563Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1846,9 +1846,22 @@
       "beneficiarySchools": "COLONIA DIVINA INTEGRATED FARM SCHOOL",
       "numberOfBeneficiaries": "600",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46325",
+      "stakeholderName": "Mary Chole Gumabras",
+      "donationType": "Cash",
+      "description": "Cash",
+      "cashAmount": "1800",
+      "inKindValue": "1800",
+      "totalValue": "3600",
+      "programProject": "Division Meet",
+      "beneficiarySchools": "Sewahon National High School",
+      "numberOfBeneficiaries": "4",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 128,
+  "stakeholderCount": 129,
   "stakeholders": [],
   "projects": []
 }
