@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T10:30:01.1091086Z",
+  "updatedAt": "2026-11-18T10:35:01.9946501Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1807,9 +1807,22 @@
       "beneficiarySchools": "COLONIA DIVINA INTEGRATED FARM SCHOOL",
       "numberOfBeneficiaries": "600",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46341",
+      "stakeholderName": "Lenard Minor/Everene Minor ",
+      "donationType": "Food",
+      "description": "Snacks for Basketball players",
+      "cashAmount": "N/A",
+      "inKindValue": "PhP500",
+      "totalValue": "#VALUE!",
+      "programProject": "Sports",
+      "beneficiarySchools": "Alfredo E Marañon Sr Elem school ",
+      "numberOfBeneficiaries": "15 players",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 125,
+  "stakeholderCount": 126,
   "stakeholders": [],
   "projects": []
 }
