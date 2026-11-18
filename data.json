@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T12:05:01.2663946Z",
+  "updatedAt": "2026-11-18T12:10:01.7862261Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1820,9 +1820,22 @@
       "beneficiarySchools": "Alfredo E Marañon Sr Elem school ",
       "numberOfBeneficiaries": "15 players",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46344",
+      "stakeholderName": "BRGY. PUEY COUNCIL",
+      "donationType": "Food",
+      "description": "FEEDING PROGRAM",
+      "cashAmount": "0",
+      "inKindValue": "20, 000.00",
+      "totalValue": "#VALUE!",
+      "programProject": "School Feeding Program Initiated by the Barangay Puey Council",
+      "beneficiarySchools": "MELCHOR D. SALCEDO SR. ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "520",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 126,
+  "stakeholderCount": 127,
   "stakeholders": [],
   "projects": []
 }
