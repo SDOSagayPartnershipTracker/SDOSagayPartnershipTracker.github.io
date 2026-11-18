@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T10:25:02.3902117Z",
+  "updatedAt": "2026-11-18T10:30:01.1091086Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1781,9 +1781,35 @@
       "beneficiarySchools": "Sherman Hill Integrated School ",
       "numberOfBeneficiaries": "327",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46344",
+      "stakeholderName": "Vanette Ubamos ",
+      "donationType": "Cash",
+      "description": "Cash for snacks and trainer of volleyball boys athletes ",
+      "cashAmount": "PhP2500",
+      "inKindValue": "N/A",
+      "totalValue": "#VALUE!",
+      "programProject": "Sports ",
+      "beneficiarySchools": "Alfredo E Marañon Sr Elem. School ",
+      "numberOfBeneficiaries": "16",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46343",
+      "stakeholderName": "SK and Congressman",
+      "donationType": "School Supplies",
+      "description": "Schools Supplies and Biscuits",
+      "cashAmount": "0",
+      "inKindValue": "3000",
+      "totalValue": "3000",
+      "programProject": "Batang Sagaynon Kampeon Program",
+      "beneficiarySchools": "COLONIA DIVINA INTEGRATED FARM SCHOOL",
+      "numberOfBeneficiaries": "600",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 123,
+  "stakeholderCount": 125,
   "stakeholders": [],
   "projects": []
 }
