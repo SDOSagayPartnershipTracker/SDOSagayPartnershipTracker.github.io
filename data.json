@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T12:15:02.9281698Z",
+  "updatedAt": "2026-11-18T12:20:02.6267700Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1833,9 +1833,22 @@
       "beneficiarySchools": "MELCHOR D. SALCEDO SR. ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "520",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46344",
+      "stakeholderName": "AICE CAMPUS CARE",
+      "donationType": "Food",
+      "description": "ICE CREAM",
+      "cashAmount": "0",
+      "inKindValue": "20000",
+      "totalValue": "20000",
+      "programProject": "THE AICE CAMPUS CARE: FOR GROWTH & LEARNING-CAMPUS PUBLIC WELFARE PROGRAM",
+      "beneficiarySchools": "COLONIA DIVINA INTEGRATED FARM SCHOOL",
+      "numberOfBeneficiaries": "600",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 127,
+  "stakeholderCount": 128,
   "stakeholders": [],
   "projects": []
 }
