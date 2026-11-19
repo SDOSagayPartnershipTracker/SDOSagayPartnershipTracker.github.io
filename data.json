@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T06:00:03.5710615Z",
+  "updatedAt": "2026-11-19T06:05:02.8848150Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1976,9 +1976,22 @@
       "beneficiarySchools": "Old Sagay Elem. School",
       "numberOfBeneficiaries": "N/A",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46318",
+      "stakeholderName": "KHAN ACDEMY",
+      "donationType": "ICT Equipment",
+      "description": "TABLETS",
+      "cashAmount": "0",
+      "inKindValue": "398000",
+      "totalValue": "398000",
+      "programProject": "BATANG SAGAYNON KAMPEON PROGRAM",
+      "beneficiarySchools": "HAUTEA INTEGRATED SCHOOL",
+      "numberOfBeneficiaries": "40",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 137,
+  "stakeholderCount": 138,
   "stakeholders": [],
   "projects": []
 }
