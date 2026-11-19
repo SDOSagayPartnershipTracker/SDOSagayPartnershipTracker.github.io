@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T04:15:02.7584334Z",
+  "updatedAt": "2026-11-19T04:20:02.1988404Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1937,9 +1937,22 @@
       "beneficiarySchools": "Old Sagay Elem. School",
       "numberOfBeneficiaries": "60",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46344",
+      "stakeholderName": "LGU brgy and City",
+      "donationType": "Cash",
+      "description": "Cash for teachers Day, Fun run and City Allowance",
+      "cashAmount": "189000",
+      "inKindValue": "189000",
+      "totalValue": "378000",
+      "programProject": "0",
+      "beneficiarySchools": "Old Sagay Elem. School",
+      "numberOfBeneficiaries": "60",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 134,
+  "stakeholderCount": 135,
   "stakeholders": [],
   "projects": []
 }
