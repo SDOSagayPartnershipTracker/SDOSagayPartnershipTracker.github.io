@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T04:25:02.4974154Z",
+  "updatedAt": "2026-11-19T04:30:01.0863825Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1963,9 +1963,22 @@
       "beneficiarySchools": "Old Sagay Eleem. School",
       "numberOfBeneficiaries": "5winners",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46325",
+      "stakeholderName": "Community Small Business",
+      "donationType": "Other",
+      "description": "Bread and water for fun run",
+      "cashAmount": "0",
+      "inKindValue": "1375",
+      "totalValue": "1375",
+      "programProject": "N/A",
+      "beneficiarySchools": "Old Sagay Elem. School",
+      "numberOfBeneficiaries": "N/A",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 136,
+  "stakeholderCount": 137,
   "stakeholders": [],
   "projects": []
 }
