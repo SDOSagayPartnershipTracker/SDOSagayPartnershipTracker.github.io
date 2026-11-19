@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T02:25:04.1732604Z",
+  "updatedAt": "2026-11-19T02:30:04.9171800Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1910,6 +1910,19 @@
       "programProject": "FAMILY DAY CELEBRATION",
       "beneficiarySchools": "CESAR GAMBOA ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "175",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46311",
+      "stakeholderName": "Mary Chole Gumabras",
+      "donationType": "Cash",
+      "description": "Cash",
+      "cashAmount": "1800",
+      "inKindValue": "1800",
+      "totalValue": "3600",
+      "programProject": "For Athletes",
+      "beneficiarySchools": "Sewahon National High School",
+      "numberOfBeneficiaries": "5",
       "status": "Confirmed"
     }
   ],
