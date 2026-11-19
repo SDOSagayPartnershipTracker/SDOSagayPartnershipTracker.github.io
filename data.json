@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T02:15:02.7084922Z",
+  "updatedAt": "2026-11-19T02:20:03.2340221Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1898,9 +1898,22 @@
       "beneficiarySchools": "CESAR GAMBOA ELEMENTARY SCHOOL",
       "numberOfBeneficiaries": "175",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46338",
+      "stakeholderName": "JEAN ROSE SABILLO",
+      "donationType": "Cash",
+      "description": "CASH",
+      "cashAmount": "5000",
+      "inKindValue": "N/A",
+      "totalValue": "#VALUE!",
+      "programProject": "FAMILY DAY CELEBRATION",
+      "beneficiarySchools": "CESAR GAMBOA ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "175",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 132,
+  "stakeholderCount": 133,
   "stakeholders": [],
   "projects": []
 }
