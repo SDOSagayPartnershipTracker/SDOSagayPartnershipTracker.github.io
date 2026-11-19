@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T02:10:05.3998443Z",
+  "updatedAt": "2026-11-19T02:15:02.7084922Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1872,9 +1872,35 @@
       "beneficiarySchools": "Patricio M. Baviera National High School",
       "numberOfBeneficiaries": "none",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46335",
+      "stakeholderName": "BETH SIMBAHON",
+      "donationType": "Cash",
+      "description": "CASH",
+      "cashAmount": "200",
+      "inKindValue": "N/A",
+      "totalValue": "#VALUE!",
+      "programProject": "FAMILY DAY CELEBRATION",
+      "beneficiarySchools": "CESAR GAMBOA ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "175",
+      "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46338",
+      "stakeholderName": "Jessie C. Mansfield",
+      "donationType": "Cash",
+      "description": "cash",
+      "cashAmount": "1000",
+      "inKindValue": "n/a",
+      "totalValue": "#VALUE!",
+      "programProject": "FAMILY DAY CELEBRATION",
+      "beneficiarySchools": "CESAR GAMBOA ELEMENTARY SCHOOL",
+      "numberOfBeneficiaries": "175",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 130,
+  "stakeholderCount": 132,
   "stakeholders": [],
   "projects": []
 }
