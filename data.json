@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T01:20:02.3598424Z",
+  "updatedAt": "2026-11-19T01:25:02.1062430Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1859,9 +1859,22 @@
       "beneficiarySchools": "Sewahon National High School",
       "numberOfBeneficiaries": "4",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46345",
+      "stakeholderName": "n/a",
+      "donationType": "Other",
+      "description": "none",
+      "cashAmount": "none",
+      "inKindValue": "none",
+      "totalValue": "#VALUE!",
+      "programProject": "none",
+      "beneficiarySchools": "Patricio M. Baviera National High School",
+      "numberOfBeneficiaries": "none",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 129,
+  "stakeholderCount": 130,
   "stakeholders": [],
   "projects": []
 }
