@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T04:20:02.1988404Z",
+  "updatedAt": "2026-11-19T04:25:02.4974154Z",
   "donations": [
     {
       "dateReceived": "46213",
@@ -1950,9 +1950,22 @@
       "beneficiarySchools": "Old Sagay Elem. School",
       "numberOfBeneficiaries": "60",
       "status": "Confirmed"
+    },
+    {
+      "dateReceived": "46264",
+      "stakeholderName": "Marayo Bank Cadiz",
+      "donationType": "Other",
+      "description": "Souvenir for Teachers Day",
+      "cashAmount": "0",
+      "inKindValue": "5000",
+      "totalValue": "5000",
+      "programProject": "N/A",
+      "beneficiarySchools": "Old Sagay Eleem. School",
+      "numberOfBeneficiaries": "5winners",
+      "status": "Confirmed"
     }
   ],
-  "stakeholderCount": 135,
+  "stakeholderCount": 136,
   "stakeholders": [],
   "projects": []
 }
